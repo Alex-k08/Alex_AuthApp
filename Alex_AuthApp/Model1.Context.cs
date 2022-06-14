@@ -13,10 +13,10 @@ namespace Alex_AuthApp
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class alex_kEntities : DbContext
+    public partial class alex_kEntities1 : DbContext
     {
-        public alex_kEntities()
-            : base("name=alex_kEntities")
+        public alex_kEntities1()
+            : base("name=alex_kEntities1")
         {
         }
     

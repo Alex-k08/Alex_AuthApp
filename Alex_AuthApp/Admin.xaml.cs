@@ -18,16 +18,25 @@ namespace Alex_AuthApp
     /// <summary>
     /// Логика взаимодействия для Admin.xaml
     /// </summary>
+    
     public partial class Admin : Page
     {
+       
+
         private Users user;
         public Admin(Users user)
         {
+            
             this.user = user;
             InitializeComponent();
             Username.Content = user.Login;
             Password.Content = user.Password;
             Type.Content = $"Тип: {user.userType.name}";
+
+            alex_kEntities1 db = new alex_kEntities1();
+            x.ItemsSource = db.Users.ToList();
+
         }
     }
+    
 }

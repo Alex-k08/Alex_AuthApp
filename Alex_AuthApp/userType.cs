@@ -14,16 +14,9 @@ namespace Alex_AuthApp
     
     public partial class userType
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public userType()
-        {
-            this.Users = new HashSet<Users>();
-        }
-    
         public int id { get; set; }
         public string name { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Users> Users { get; set; }
+        public virtual Users Users { get; set; }
     }
 }

@@ -43,7 +43,7 @@ namespace Alex_AuthApp
             {
                 MessageBox.Show("Вы не ввели пароль");
             }
-            var db = new alex_kEntities();
+            var db = new alex_kEntities1();
             var user = new Users();
             user.Login = Login.Text;
             user.Password = Pass.Text;

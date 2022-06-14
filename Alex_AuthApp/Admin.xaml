@@ -13,5 +13,16 @@
         <Label x:Name="Username" ></Label>
         <Label x:Name="Password"></Label>
         <Label x:Name="Type"></Label>
+        <Grid>
+            <DataGrid x:Name="x">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Тип пользователя" Binding="{Binding UserTypes.name}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            
+        </Grid>
+
+
+
     </StackPanel>
 </Page>

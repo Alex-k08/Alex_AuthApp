@@ -26,7 +26,7 @@ namespace Alex_AuthApp
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var x = new alex_kEntities();
+            var x = new alex_kEntities1();
             var users = x.Users.Where((user) => user.Login == Login1.Text && user.Password == Password1.Password).ToList();
             if (users.Count > 0)
             {
