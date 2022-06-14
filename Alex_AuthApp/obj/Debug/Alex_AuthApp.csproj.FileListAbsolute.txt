@@ -21,3 +21,11 @@ C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Alex_AuthApp.cspr
 C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Alex_AuthApp.csproj.CopyComplete
 C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Alex_AuthApp.exe
 C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Alex_AuthApp.pdb
+C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Admin.g.cs
+C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Avtoris.g.cs
+C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Regest.g.cs
+C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\User.g.cs
+C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Admin.baml
+C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Avtoris.baml
+C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\Regest.baml
+C:\Users\User\source\repos\Alex_AuthApp\Alex_AuthApp\obj\Debug\User.baml

@@ -16,14 +16,18 @@ using System.Windows.Shapes;
 namespace Alex_AuthApp
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для User.xaml
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class User : Page
     {
-        public MainWindow()
+        private Users user;
+        public User(Users user)
         {
+            this.user = user;
             InitializeComponent();
-            NavigationService.Navigate(new Regest());
+            Username.Content = user.Login;
+            Password.Content = user.Password;
+            Type.Content = $"Тип: {user.userType.name}";
         }
     }
 }
